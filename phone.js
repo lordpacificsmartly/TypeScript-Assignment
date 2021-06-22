@@ -29,7 +29,7 @@ phone.forEach(function (element) {
 console.log(phone);
 console.log(myphone.format());
 console.log(emekaPhone.format());
-console.log(myphone === null || myphone === void 0 ? void 0 : myphone.makeCall(123456));
-console.log(emekaPhone === null || emekaPhone === void 0 ? void 0 : emekaPhone.makeCall(144456));
-console.log(myphone === null || myphone === void 0 ? void 0 : myphone.sendText('I love you', 'My Wife'));
-console.log(emekaPhone === null || emekaPhone === void 0 ? void 0 : emekaPhone.sendText('I like you very much', 'Ore mi'));
+console.log(myphone.makeCall(123456));
+console.log(emekaPhone.makeCall(144456));
+console.log(myphone.sendText('I love you', 'My Wife'));
+console.log(emekaPhone.sendText('I like you very much', 'Ore mi'));

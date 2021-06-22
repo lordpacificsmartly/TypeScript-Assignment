@@ -48,11 +48,11 @@ console.log(phone);
 console.log(myphone.format());
 console.log(emekaPhone.format());
 
-console.log(myphone?.makeCall(123456));
-console.log(emekaPhone?.makeCall(144456));
+console.log(myphone.makeCall(123456));
+console.log(emekaPhone.makeCall(144456));
 
-console.log(myphone?.sendText('I love you', 'My Wife'));
-console.log(emekaPhone?.sendText('I like you very much', 'Ore mi'));
+console.log(myphone.sendText('I love you', 'My Wife'));
+console.log(emekaPhone.sendText('I like you very much', 'Ore mi'));
 
 
 
