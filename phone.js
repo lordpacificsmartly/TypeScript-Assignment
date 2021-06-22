@@ -1,17 +1,17 @@
 var Phone = /** @class */ (function () {
-    function Phone(b, os, c, s, w, p) {
+    function Phone(brand, operatingSystem, color, size, weight, price) {
         this.makeCall = function (phonenumber) {
             console.log("Calling... " + phonenumber);
         };
         this.sendText = function (message, recipient) {
             console.log("Send " + message + " to " + recipient);
         };
-        this.brand = b;
-        this.operatingSystem = os;
-        this.color = c;
-        this.size = s;
-        this.weight = w;
-        this.price = p;
+        this.brand = brand;
+        this.operatingSystem = operatingSystem;
+        this.color = color;
+        this.size = size;
+        this.weight = weight;
+        this.price = price;
     }
     Phone.prototype.format = function () {
         return "My phone is " + this.brand + ", its " + this.color + ", and I bought it very expensive at " + this.price + " naira. The operating system is " + this.operatingSystem + ", " + this.size + "ins wide and " + this.weight + "g";

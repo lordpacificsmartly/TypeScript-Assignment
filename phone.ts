@@ -6,13 +6,13 @@ class Phone {
     weight: number
     price: number;
 
-    constructor(b: string, os: string, c: string, s: number, w: number, p: number){
-        this.brand = b;
-        this.operatingSystem = os;
-        this.color = c;
-        this.size = s;
-        this.weight = w;
-        this.price = p;
+    constructor(brand: string, operatingSystem: string, color: string, size: number, weight: number, price: number){
+        this.brand = brand;
+        this.operatingSystem = operatingSystem;
+        this.color = color;
+        this.size = size;
+        this.weight = weight;
+        this.price = price;
     }
 
     makeCall = (phonenumber: number) => {
