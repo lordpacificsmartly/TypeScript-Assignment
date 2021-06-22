@@ -16,13 +16,14 @@ class Phone {
     }
 
     makeCall = (phonenumber: number) => {
-        console.log(`Calling... ${phonenumber}`)!;  
+        console.log(`Calling... ${phonenumber}`); 
+        return this.makeCall; 
     }
 
     sendText = (message: string, recipient: string) => {
         console.log(
-            `Send ${message} to ${recipient}`
-        );
+            `Send ${message} to ${recipient}`);
+            return this.sendText;
         
     }
 

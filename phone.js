@@ -1,10 +1,13 @@
 var Phone = /** @class */ (function () {
     function Phone(brand, operatingSystem, color, size, weight, price) {
+        var _this = this;
         this.makeCall = function (phonenumber) {
             console.log("Calling... " + phonenumber);
+            return _this.makeCall;
         };
         this.sendText = function (message, recipient) {
             console.log("Send " + message + " to " + recipient);
+            return _this.sendText;
         };
         this.brand = brand;
         this.operatingSystem = operatingSystem;
